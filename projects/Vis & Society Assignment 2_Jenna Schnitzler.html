@@ -37,12 +37,12 @@
 				Width="600"/>
 				<figcaption>
 					<br> <em> Chart depicting frequency of buildings converted to condominiums by original construction date </em><br>
-					My entry point into this data set was through plotting the original construction date (sorted into bins by decade) of each converted building in Boston as a histogram. This gives us a sense of the overall age of the building stock that this dataset contains. This chart then shows the number of buildings in our dataset constructed every decade; showing a construction boom in the late 1800s-early 1900s, and again in the 2000s.
+					My entry point into this data set was through plotting the original construction date (sorted into bins by decade) of each converted building in Boston as a histogram. This gives us a sense of the overall age of the building stock that this dataset contains. This chart then shows the number of buildings in our dataset constructed every decade; showing a construction boom in the late 1800s-early 1900s, and again in the 2000s. I focused on the Boston dataset for this assignment, and all resulting visualizations are from the same source data.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 2.png" alt="Chart depicting frequency of buildings converted to condominiums by year converted" 
+				<img src="images/A2/Figure 2.png" alt="Chart depicting frequency of buildings converted to condominiums by year converted" 
 				Width="600" />
 				<figcaption>
 					<br> <em> Chart depicting frequency of buildings converted to condominiums by year converted </em><br>
@@ -51,7 +51,7 @@
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 3.png" alt="Chart depicting frequency of buildings converted to condominiums by original construction date, with year converted overlaid"
+				<img src="images/A2/Figure 3.png" alt="Chart depicting frequency of buildings converted to condominiums by original construction date, with year converted overlaid"
 				Width="600" />
 				<figcaption>
 					<br> <em> Chart depicting frequency of buildings converted to condominiums by original construction date, with year converted overlaid </em><br>
@@ -60,18 +60,18 @@
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 4.png" alt="Scatter plot of converted buildings depicting years between conversion and renovation, sorted by conversion year" 
+				<img src="images/A2/Figure 4.png" alt="Plot of converted buildings depicting years between conversion and renovation, sorted by conversion year" 
 				Width="300" />
 				<figcaption>
-					<br> <em> Scatter plot of converted buildings depicting years between conversion and renovation, sorted by conversion year </em> <br>
+					<br> <em> Plot of converted buildings depicting years between conversion and renovation, sorted by conversion year </em> <br>
 				For my second attempt at finding out if building age has an effect on conversion year, I instead plotted each building in the dataset in terms of years between remodel and conversion, sorted by year converted (note 2017 is missing). Years since renovation then, rather than original construction date, seems to be a better piece of information; there is a definite trend showing that the majority of buildings are converted within 20 years of renovation, regardless of original construction date.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 5.png" alt="" 
+				<img src="images/A2/Figure 5.png" alt="Plotting overall prior condition and years since renovation" 
 				Width="200" />
-				<img src="projects/images/A2/Figure 6.png" alt="" 
+				<img src="images/A2/Figure 6.png" alt="Plotting overall prior condition frequency" 
 				Width="200" />
 				<figcaption>
 					<br> <em> Plotting overall condition before conversion against years since renovation, as well as frequency of condition status </em> <br>
@@ -81,114 +81,114 @@
 
 
 			<figure>
-				<img src="projects/images/A2/Figure 8.png" alt=""
+				<img src="images/A2/Figure 8.png" alt="Frequency of conversion by structure type"
 				Width="450" />
-				<img src="projects/images/A2/Figure 9.png" alt=""
+				<img src="images/A2/Figure 9.png" alt="Frequency of conversion by structure type"
 				Width="450" />
 				<figcaption>
 					<br> <em> Frequency of conversion by structure type classification </em> <br>
-				Beyond the date of original construction, time since renovation, and overall building condition prior to conversion, another factor that might contribute to likelihood of conversion is the type of structure. Originally when I plotted this data, there were many redundant categories that motivated me to go into the set's metadeta to better understand and define these classifications, and I was able to group redundant structure class types. 
+				Beyond the date of original construction, time since renovation, and overall building condition prior to conversion, another factor that might contribute to likelihood of conversion is the type of structure. Originally when I plotted this data, there were many redundant categories that motivated me to go into the set's metadeta to better understand and define these classifications, and I was able to group redundant structure class types. Most converted structures are of structure class R-Residential, but some other structural classes are represented in the data set. I mapped year built as an additional dimension (color) to try and see if there were any trends with what types of structures were built when, but it is hard in the format shown in Figure 6.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 26.png" alt=""
+				<img src="images/A2/Figure 26.png" alt="Frequency of conversion by year built and structure type"
 				Width="600" />
 				
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-					Most converted structures are of structure class R-Residential, but some other structural classes are represented in the data set. I mapped year built as an additional dimension (color) to try and see if there were any trends with what types of structures were built when, but it is hard in the format shown in Figure 6. By switching the axes to show the year built, and rather color coding by structure class, we can see some larger, overall trends; that structural steel was not represented until the 1960s, and reinforced concrete use began tapering off after the 1930s. 
+					<br> <em> Frequency of conversion by year built, structure type shown in color </em> <br>
+					 By switching the axes to show the year built, and rather color coding by structure class, we can see some larger, overall trends; that structural steel was not represented until the 1960s, and reinforced concrete use began tapering off after the 1930s. In this visualization, year built is a meaningful dimension to understanding the trends in the types of structures built.
 				</figcaption>
 			</figure>
 			
 			
 			<figure>
-				<img src="projects/images/A2/Figure 13.png" alt=""
+				<img src="images/A2/Figure 13.png" alt="Map of conversion frequency"
 				Width="450" />
-				<img src="projects/images/A2/Figure 34.png" alt=""
+				<img src="images/A2/Figure 34.png" alt="Map of conversion frequency"
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-					The geographic data included in the set includes zip codes and city data - here I mapped number of conversions by zip code with the maximum and minimum annotated on the map (210 buildings converted in ???, just one in ?, ?, and ?). Using color to indicate number of conversions by zip code, we can see that the perimeter counties seem to be more actively converting their buildings to condos in comparison to downtown Boston. When we start to look at the data by city however, I first changed the zip-code boundary to a single dot whose size represented the number of buildings converted in the area code (the same information in the map on the left). Looking at this representation made me question if all the zip codes for each city were grouped together, would the data tell a different story about conversion frequency.
+					<br> <em> Maps of conversion frequency by zipcode, using variable encoding methods </em> <br>
+					The geographic data included in the set includes zip codes and city data - here I mapped number of conversions by zip code with the maximum and minimum number of buildings converted in each zipcode annotated on the map. Using color to indicate number of conversions by zip code, we can see that the perimeter counties seem to be more actively converting their buildings to condos in comparison to downtown Boston. When we start to look at the data by city however, I first changed the zip-code boundary to a single dot whose size represented the number of buildings converted in the zip code (the same information in the map on the left). Looking at this representation made me question if all the zip codes for each city were grouped together, would the data tell a different story about conversion frequency. I was hoping to be able to create a map plotting each building converted as a single point on the map, but will need to learn more about Tableau before I can achieve that.
 				</figcaption>
 			</figure>
 
 		
 			<figure>
-				<img src="projects/images/A2/Figure 30.png" alt=""
+				<img src="images/A2/Figure 30.png" alt="Bubble diagram"
 				Width="450" />
-				<img src="projects/images/A2/Figure 29.png" alt=""
+				<img src="images/A2/Figure 29.png" alt="Bubble diagram"
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
+					<br> <em> Bubble diagrams describing the buildings converted in each city represented in the dataset, by total number of buildings converted and total number of units </em> <br>
 					These bubble diagrams show the total number of buildings converted in each city - Boston proper, which seemed to have a low number of conversions according to the previous visualizations, is actually closer to the middle of all the cities represented in terms of conversion frequency. When we change the size of the bubble to represent the total number of condo units rather than single buildings, then we see Boston actually has the largest number of units of all the cities in the dataset, vastly different than you might think looking at the previous maps.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 36.png" alt=""
+				<img src="images/A2/Figure 36.png" alt="Map showing average conversion size"
 				Width="450" />
-				<img src="projects/images/A2/Figure 35.png" alt=""
+				<img src="images/A2/Figure 35.png" alt="Bubble diagram showing average conversion size"
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-					This is because generally (by average number of condo units per converted building), the converted buildings in Boston are larger than the other cities included in the dataset, and zipcodes on the perimeter.
+					<br> <em> Map and bubble diagram showing the average conversion size (number of units in converted building) by zip code and city </em> <br>
+					The previous visualization showed us that the city of Boston has the most converted units of all the cities. This is because generally (by average number of condo units per converted building), the converted buildings in Boston are larger than the other cities included in the dataset, and zipcodes on the perimeter.
 				</figcaption>
 			</figure>
 
 			<figure>
-				<img src="projects/images/A2/Figure 10.png" alt=""
+				<img src="images/A2/Figure 10.png" alt="Land use types of converted buildings - pre conversion"
 				Width="600" />
-				<img src="projects/images/A2/Figure 11.png" alt="" 
+				<img src="images/A2/Figure 11.png" alt="Land use types of converted buildings - pre conversion" 
 				Width="600"/>
-				<img src="projects/images/A2/Figure 12.png" alt=""
+				<img src="images/A2/Figure 12.png" alt="Land use types of converted building - post conversion"
 				Width="600" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-					I was also curious about the land use types of the addresses undergoing conversion, and mapped the frequency of each Land Use (LU) type prior to conversion alphabetically in the top graph, and reordered in terms of total counts in the middle graph. Before conversion, more addressed were of the CD (residential condominium unit) or R3, R2, and R1 (3, 2, and single family residential) land use types. After conversion, the amount of addresses zoned as R2 and R3 drastically decreased, and most were converted to the CM (Condominium main (physical structure housing all related condo units with no assessed value)) type.
+					<br> <em> Land use types of converted buildings </em> <br>
+					I was also curious about the land use types of the addresses undergoing conversion (and if this has any relationship to location), and mapped the frequency of each Land Use (LU) type prior to conversion alphabetically in the top graph, and reordered in terms of total counts in the middle graph. Before conversion, more addressed were of the CD (residential condominium unit) or R3, R2, and R1 (3, 2, and single family residential) land use types. After conversion, the amount of addresses zoned as R2 and R3 drastically decreased, and most were converted to the CM (Condominium main (physical structure housing all related condo units with no assessed value)) type.
 				</figcaption>
 			</figure>
 
 
 			<figure>
-				<img src="projects/images/A2/Figure 32.png" alt=""
+				<img src="images/A2/Figure 32.png" alt="Land use types of converted buildings by location"
 				Width="450" />
-				<img src="projects/images/A2/Figure 33.png" alt=""
+				<img src="images/A2/Figure 33.png" alt="Land use types of converted buildings by location - zoom in "
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
+					<br> <em> Land use types of converted buildings by location </em> <br>
 					Mapping the change in land use type geographically shows that this trend occurs pretty universally across all the zip codes - the majority of the addressed become zoned as CM post conversion, regardless of location. This could indicate the impact of some sort of larger policy/conversion protocol.
 				</figcaption>
 			</figure>
 
 
 			<figure>
-				<img src="projects/images/A2/Figure 21.png" alt=""
+				<img src="images/A2/Figure 21.png" alt="Building value before and after conversion"
 				Width="600" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-					The potential profit of conversion is anecdotally referenced in the article about the Millbrook Lofts in Somerville, so I was curious about the scale of profit attained through the condo conversion process. Profit in this case is approximated as building value after conversion - building value pre-conversion, in lieu of any sales data. In general, according to this dataset, conversion seems to be a profitable endeavor for building owners, evidenced by the fact that the trend line in the graph above has a far steeper slope than the breakeven point, marked by the dashed line. I question the validity of the outliers in terms of buildings losing value in the conversion process (-43M and -63M in particular) and would want to investigate these data points further.
+					<br> <em> Building value before and after conversion </em> <br>
+					The potential profit of conversion is anecdotally referenced in the article about the Millbrook Lofts in Somerville, so I was curious about the scale of profit attained through the condo conversion process. Profit in this case is approximated as building value after conversion - building value pre-conversion, in lieu of any sales data. In general, according to this dataset, conversion seems to be a profitable endeavor for building owners, evidenced by the fact that the trend line in the graph above has a far steeper slope than the breakeven point, marked by the dashed line. I question the validity of the outliers in terms of buildings losing value in the conversion process (-43M and -63M in particular) and would want to investigate these data points further. These field was quite sparse so I'm skeptical of the results, and there were some suspiciously low values for both prior and post-building values.
 				</figcaption>
 			</figure>
 			<figure>
-				<img src="projects/images/A2/Figure 22.png" alt=""
+				<img src="images/A2/Figure 22.png" alt="Overall building condition before and after conversion"
 				Width="450" />
-				<img src="projects/images/A2/Figure 28.png" alt=""
+				<img src="images/A2/Figure 28.png" alt="Interior condition before and after conversion"
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
+					<br> <em> Building condition before and after conversion </em> <br>
 				Yet, overall building condition seems unaffected by conversion - all the entries that had values for these fields show no change between overall building condition before and after conversion. Far fewer entries had valuable interior condition metrics, but of the 325 that were assessed for this metric, there was no change noted between interior condition before and after conversion. From this, it seems possible to make the conclusion that conversion has no impact on interior conditions.
 				</figcaption>
 			</figure>
 			
 			<figure>
-				<img src="projects/images/A2/Figure 24.png" alt="" 
+				<img src="images/A2/Figure 24.png" alt="Living area before and after conversion" 
 				Width="450" />
-				<img src="projects/images/A2/Figure 25.png" alt="" 
+				<img src="images/A2/Figure 25.png" alt="Living area before and after conversion" 
 				Width="450" />
 				<figcaption>
-					<br> <em> Insert caption </em> <br>
-				Just as building condition seems relatively unaffected by conversion, so does the amount of total living area. It appears that most data points fall on the dashed line indicating no change between total pre-conversion square footage and total square footage after conversion. Even so, the trend line produced in Tableau indicates a slight trend towards reduction to total living area. If we zoom into where most of the data is concentrated, we can actually find a crossover point- buildings with under 15,000 square feet of living space tend to gain living space upon conversion, and buildings above this threshold lose living space overall.
+					<br> <em> Living area before and after conversion </em> <br>
+				Just as building condition seems relatively unaffected by conversion, so does the amount of total living area. It appears that most data points fall on the dashed line indicating no change between total pre-conversion square footage and total square footage after conversion. Even so, the trend line produced in Tableau indicates a slight trend towards reduction to total living area. In the graph on the right, we zoom into where most of the data is concentrated, and can actually find a crossover point- buildings with under 15,000 square feet of living space tend to gain living space upon conversion, and buildings above this threshold lose living space overall.
 				</figcaption>
 			</figure>
 
@@ -198,7 +198,7 @@
 		<section>
 			<h2>Summary</h2>
 
-			<p>WRITE FINAL SUMMARY HERE.</p>
+			<p>This data exploration exercise was really interesting, it was hard to reign in creating more and more visualizations for this assignment! From my exploration, I get the sense that conversion is more attractive to the building owner than the tenant - building value increases, but there is no change in building quality (condition and living space). If I were to continue my investigation, I would look deeper at any relationship between building quality and building characteristics (like structure class, land use zoning) and location; I feel like my geospatial understanding of the data remained quite surface level throughout this exercise. I am curious about the land use data in particular, and want to research the benefits/requirements of switching to CM zoning for building owners, since that land use type skyrocketed after conversion. One of the more interesting results I got from this excercise was understanding the pattern that emerged between years since renovation and conversion, and getting a better sense of when building original construction date is more or less meaningful.  Overall, my impression is that this dataset is a little patchy - all the fields are not consistently filled out across all the entries so it made it a little difficult to get my bearings and feel like I could draw any really meaningful conclusions. I would like to know better practices for dealing with null/non-meaningful zero values to better shape my exploration in the future. </p>
 		</section>
 	</main>
 </body>
