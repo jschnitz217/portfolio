@@ -1,0 +1,122 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 3</small>
+			Visualization Design
+		</h1>
+
+		<p>
+			<strong>Jenna Schnitzler</strong> — <em>jschnitz@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+		<section>
+			<h2>Phase One: Sketching Visualizations</h2>
+		
+				<h3>Overall Question: What group experienced the most change between 1900 and 2000?</h3>
+				
+	
+	
+      <figure>
+				<img src="images/A3/Sketch 1.png" alt="" 
+				Width="600"/>
+				<figcaption>
+					First sketch of phase one, visualizing total population broken down into 5-year age group bins stacked into a single bar for each year represented, 1900 and 2000.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 1:
+			</p>
+
+			<ul>
+				<li>Showing total population size to give an overall comparison</li>
+				<li>Broken down by age, but hard to compare each group directly</li>
+				<li>Represents all bins provided in the dataset, no additional interpretation</li>
+			</ul>
+
+      <figure>
+				<img src="images/A3/Sketch 2.png" alt="" 
+				Width="600"/>
+				<figcaption>
+					Mirrored histograms showing population distribution by age (in 5-year bins) and sex (population pyramid) for both 1900 and 2000.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 2:
+			</p>
+
+			<ul>
+				<li>Good at showing overall shape of data set - including sex and every age group provided</li>
+				<li>Easier to directly compare groups for each year</li>
+				<li>Plots are by year (1900 or 2000), so comparison happens through reflection </li>
+			</ul>
+
+      <figure>
+				<img src="images/A3/Sketch 3.png" alt="" 
+				Width="600"/>
+				<figcaption>
+					“Small multiples” bar charts of age and sex population distribution in both 1900 and 2000, grouped into 5 overall age groups.
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Rationale for Sketch 3:
+			</p>
+
+			<ul>
+				<li>Multiple, self-similar plots where comparison is drawn directly</li>
+				<li>Detailed representation of all groups that make up the population (by sex and age)</li>
+				<li>Age groups are condensed into 5 key age groups - do the boundaries make sense?</li>
+			</ul>
+
+      <h3>Reflection</h3>
+
+      <p>
+		As I progressed through the sketching exercise, I tried with each iteration to make the question more and more apparent in the representation. In Sketch 1, the question about the impact on particular age groups is implied at best, and by Sketches 2 and 3, the question is further specified to include analysis by both age and gender. What Sketch 1 contains that the others do not is the ability to easily compare the overall change in total population, which is helpful context for understanding the dataset. Sketch 2 also effectively gives a birds-eye-view of the data overall. Going into the next phase, I would like to maintain the comparative analysis that emerges in Sketch 3 with the use of small multiplies, but find a way to embed an overall understanding of the original dataset like in Sketches 1 and 2, and leave clues as to how the data may have been transformed to create the final visualization.
+      </p>
+
+		</section>
+
+		<section>
+			<h2>Phase Two: Final Design</h2>
+			<h3>Overall Question: What demographic group (by age and sex) experienced the greatest relative population change between 1900 and 2000? </h3>
+			
+			<figure>
+				<img src="images/A3/Final.png" alt="" 
+				Width="800"/>
+				<figcaption>
+				Relative U.S. Population Increase by Demographic, 1900-2000.
+				</figcaption>
+			</figure>
+		</section>
+
+		<section>
+			<h2>Design Process & Design Decisions</h2>
+
+			<p>
+				To reduce the number of plots in the small multiples arrangement to four total, I changed the way the population was grouped - creating new overall bins for 0-15, 20-35, 40-60, 65-90 with the original 5 year bins represented secondarily in each plot for more specificity. Four small plots seems like a reasonable number to ask people to interpret at once, and for me it is always easier to interpret in pairs, at least perceptually. I wanted the overall visualization to make a single clear point (which group had the largest proportional difference in population - 60-90 year old females), but include more detailed information to contextualize that outcome.
+<br></br>
+				 In each plot, male and female populations are plotted independently for the years 1900 and 2000, with color hue (blue vs yellow) used to distinguish sex, and saturation used to distinguish year (1900=light, 2000=dark). Thin lines within each overall population bar differentiate by the original 5-year age bins provided in the dataset, indicating how much of each age group is made up of each original bin. These lines tell us fine grain information about how the overall population has changed over time. Each demographic (by age and sex) is given its own proportional ruler, in order to measure population growth in terms of the original 1900 population count. Each ruler has a tick mark indicating the length of the original 1900 population measure, and the line type turns to dashed once the length of the 2000 population measure is reached, providing a visual tool to count the proportional increase in population - the viewer can estimate that men ages 0-15 increased around 2.5 times the 1900 population, women ages 40-60 increased just over 6-fold, and so on. This annotation indicates that the group that has the largest amount of growth in terms of total population added, or largest overall distance between 1900 measure and 2000 measure (which occurs in the women aged 40-60 category), is not the same as that which experiences the largest proportional population increase (which occurs for women ages 65-90). The largest and smallest relative population increases are annotated on the appropriate graphs, in an attempt to give the reader another clue for how to read the proportional rulers. 
+</p>
+
+
+      <h3>Reflection</h3>
+
+      <p>
+        
+Sketching had a huge impact on my final design, which ended up appropriating bits from each of the initial sketches. Sketch 3 was my general starting point for my final visualization, from which I took the overall small multiples arrangement and age regrouping idea. The sketches helped determine how much detail should make it into the final iteration, and where it should go, and helped me work through whether or not a birds-eye-view interpretation of the data was really necessary to answer the question I was asking. Ultimately, the overall shape of the dataset as seen in my original Sketches 1 and 2 is unnecessary to answer the question I was asking, but some of the methods of encoding information remained quite relevant. The breakdown by age as colored bands that I sketched out in Sketch 1 became very useful in the final visualization to show the age bins that were grouped together in the four larger age group plots. Creating direct comparisons between every age group would be cumbersome, so by grouping them but still encoding the proportion of each larger age group by original 5-year bin helps the reader have some useful context and more granular information, while still allowing the main point of the plot to take precedence.
+      </p>
+		</section>
+	</main>
+</body>
+</html>
