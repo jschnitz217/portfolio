@@ -1,0 +1,82 @@
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+	<title>Vis & Society Assignment 3</title>
+	<link rel="stylesheet" href="https://vis-society.github.io/assignments/report.css" />
+</head>
+
+<body>
+	<header>
+		<h1>
+			<small>Assignment 4</small>
+			Persuasive or Deceptive Visualization?
+		</h1>
+
+		<p>
+			<strong>Jenna Schnitzler</strong> — <em>jschnitz@mit.edu</em>
+		</p>
+	</header>
+
+	<main>
+    <h2>Proposition: Between 2017 and 2020, abortions increased in states that voted for Trump in the 2020 election.</h2>
+
+		<section>
+      <h3>FOR the Proposition</h3>
+
+      <figure>
+		<img src="images/A4/For.png" alt="" 
+		Width="800"/>
+		<figcaption>
+			Republican hypocrisy: Abortions increase in conservative states.
+		</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li> <strong>Legend discretization and color choices: + 1</strong> <br> A blue gradient is chosen to represent positive changes in total number of abortions, in contrast to the red inset electoral map. By using a color traditionally associated with liberal politics in the United States (blue) to color states that voted for Trump in the 2020 election, we can visualize the the irony/hypocrisy that the data is exposing. This is further emphasized by the use of a neutral grey to represent negative change (which is theoretically in alignment with conservative values) - they fade into the background map while the positive changes stand out, also called out by plus signs on the map. In order to produce this map, I augmented the data provided by the course teaching team with additional data from the Guttmacher Institute since the total number of abortions by state of occurrence for 2020 was originally included, but the same data for 2017 was missing from the class provided data set. </br> </li>
+				<li> <strong> Total change in number of abortions as net change: + 2 </strong> <br> At the bottom of the change in number of abortions by state chart on the bottom right of the visualization, I graphed the total net increase in number of abortions by adding all the changes by state together. This results in an overall net increase of 21,322 abortions across all Trump-voting states, but in order to build some trust with my audience, I included visually the subtraction of all the states that had overall decreases in the number of abortions. I was worried that if I showed just the black total bar, a reader might wonder what happened to all the small white bars on the negative side of the graph. </br> </li>
+				<li> <strong> Picking example states: - 1 </strong> <br> I also supplemented the provided dataset with additional, higher resolution state-by-state data from the Guttmacher Institute to create line graphs for a few key states showing the change in number of abortions over time. For this side of my argument, I called out the states that had the most dramatic increases in total number of abortions (which can be seen on the chart on the bottom right) - Florida, North Carolina, Oklahoma, and Texas. I worry about the effectiveness of this choice, since two of the states selected were swing states in the 2020 election (Florida and North Carolina) and a possible interpretation of this visualization is therefore that since these fringe states that maybe don’t 100% fit into the conservative categorization, they are skewing the data towards abortion increase. </br> </li>
+				<li> <strong> Line graph axis inconsistency: - 2 </strong> <br> The higher resolution data that I added for the state-by-state line graphs did not include data points for 2018 or 2019. Instead of plotting these missing years on the x-axis of the line graph, I created a break in the axis so that the slope between 2017 and 2020 would not be stretched out over these missing years, but rather show a more dramatic increase. This is a deceptive technique that I used across both sides of my arguments and it had the same effect in both cases - strengthening the slope of the lines in the direction of persuasion. </br> </li>
+				
+			</ul>
+    </section>
+
+    <section>
+      <h3>AGAINST the Proposition</h3>
+
+      <figure>
+		<img src="images/A4/Against.png" alt="" 
+		Width="800"/>
+				<figcaption>
+					Practice what you preach: Abortions decrease in conservative states
+				</figcaption>
+			</figure>
+
+			<p>
+				Design Decisions and Rationale:
+			</p>
+
+			<ul>
+				<li> <strong> Legend discretization and color choices: - 1 </strong> <br> By discretizing the percent change in abortion rate map’s legend into just two bins per side (two for negative change and two for positive change), it skews towards the extremes - a state with a -5% decrease is colored the same as a state with a -31% decrease, making the reader likely to interpret the changes as more dramatic than they actually are. This effect is enhanced through annotation, where I called out the largest decrease in each negative color category, and a more average increase in the lighter grey positive category. I did not call any numbers out of the dark grey positive category as to not draw any more attention to Oklahoma, which is later filtered out of the dataset. For this visualization, any state with a less than 2% change are rounded to 0%, and the color legend’s center point is set at 1 instead of 0, so that states with a 0% difference are also skewed to be in the light pink bin, a manipulation which is barely noticeable on the legend but has a large impact visually.  </br> </li>
+				<li> <strong> Map colors: + 1 </strong> <br> I chose similar colors on both the large and inset map, so that a reader might draw the conclusion of how similar the two look - implicitly creating a sense of unity between all the states that voted for Trump in the 2020 election and states with decreasing percent change in abortion rate, lumping all the states together to generate an overarching trend. This may be effective on a subconscious level, just in terms of creating a general pink-wash over the visualization.  </br> </li>
+				<li> <strong> Filtering outliers: - 2 </strong> <br> In the abortion rate graph, Oklahoma is filtered out as the most prominent outlier with a positive percentage increase. Without Oklahoma, the average change across all the states is -10%, and because all 25 states that voted for Trump in the 2020 election are listed out in alphabetical order, it is the hope that the fact that Oklahoma is missing would go unnoticed on first glance - just because the list looks appropriately long and a reader may not look at the states in the middle of the list first. </br> </li>
+				<li> <strong> Picking example states: - 1 </strong> <br> For the close up line graph showing the number of abortions increasing, I chose to show Louisiana, Missouri, South Dakota, and West Virginia - the four states with the greatest decrease in percent change in abortion rate between 2017 and 2020. I made sure that these four states have a downward trend in total number of abortions before finalizing my selection, with the hope that a reader might assume that, by looking at the map and graph in tandem, all the states that have a negative % change in abortion rate would also have a decreasing trend in terms of number of abortions even though that is not necessarily true. I think this choice was very effective, but I wonder if a reader would question why these four states were chosen since the reasoning is not explicitly stated in the visualization, though one could look at the abortion rate chart and see that the four states chosen have the largest negative bars. </br> </li>
+			
+			</ul>
+    </section>
+
+    <section>
+      <h2>Final Reflection</h2>
+
+      <p>Searching for a point of view or arguable proposition was a super effective initiation of data exploration for me; the idea that I was looking for inconsistencies to exploit was energizing and a strong driving force behind my exploration where I felt encouraged to keep trying various transformations and bringing in additional sets of data to start to uncover trends. In this initial exploration, I first brought in additional state population data to normalize the abortion data against - thinking that there would be some overall trend that high population states don’t necessarily have higher abortion rates, rather their total abortion count numbers are so high simply due to their large overall population. This avenue turned out to be a little too neutral - I had a hard time figuring out where to apply spin. In one exploration, I normalized state abortion totals by state populations, and found the difference between 2017 and 2020 - afterwards realizing that this graph was formally similar to the percent change in abortion rate chart that I created without any additional data sources; while not useful for creating a persuasive visualization, it was useful in helping me understand how some of these more abstract metrics are calculated and understand the definition of abortion rate. I didn’t end up using this data in any of my visualizations, as I found that the other dataset I overlaid - the 2020 electoral data - provided results that were much more susceptible to persuasive techniques. Nevertheless, searching in this way initiating a much deeper data exploration than I expected, which was very useful.
+<br> </br>
+		In the creation of the final visualizations, it was freeing to be able to name them without fear of being misleading or biased - knowing that that was my goal made it possible for me to iterate and think through multiple titles that were more attention grabbing than the descriptions I usually make, and ultimately come up with versions that have a viewpoint embedded into them. Ranking the design choices from “earnest” to “deceptive” was maybe the hardest part of this whole exercise, and reminded me of the discussion of the at times invisible affective/cognitive divide that came up in our reading group a couple of weeks ago; does it matter if a choice is earnest or deceptive if its effect is essentially the same? Sometimes the same choice can be more earnest or more deceptive in different instances; when picking example states for my close up line graphs, for the AGAINST visualization, my decision was decidedly deceptive; I cherry-picked the only four states with the trend that I wanted to showcase. For the FOR visualization, this initially felt more earnest - I could have picked almost any of the states and the same trend would have been true; yet by picking the states with the most dramatic increase I could make a better argument. I mentioned in my initial design decision explanation that I was worried about the perception of these four chosen states as “fringe” to the conservative ideology as two were swing states in the 2020 election; I am not sure how visualization designers deal with this risk of misinterpretation even if the “risky” data points make the best case.
+	  </br>	
+	</p>
+    </section>
+	</main>
+</body>
+</html>
